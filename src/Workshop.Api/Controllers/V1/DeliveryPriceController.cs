@@ -13,4 +13,10 @@ public class DeliveryPriceController : ControllerBase
     {
         throw new NotImplementedException();
     }
+    
+    [HttpPost]
+    public GetHistoryResponse[] GetHistory(GetHistoryRequest request)
+    {
+        throw new NotImplementedException();
+    }
 }

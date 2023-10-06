@@ -7,11 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79f5f862-4cfb-482c-aeb2-432abd7c7e58" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Workshop-1/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Workshop-1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Bll/Models/CalculatetionLogModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Bll/Models/GoodModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Bll/Services/Interfaces/IPriceCalculator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Requests/V1/GetHistoryRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Responses/V1/CargoResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Responses/V1/GetHistoryResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Workshop.Api/Controllers/V1/DeliveryPriceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Workshop.Api/Controllers/V1/DeliveryPriceController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,7 @@
       <updated>1696588992866</updated>
       <workItem from="1696588995130" duration="4118000" />
       <workItem from="1696593838527" duration="672000" />
-      <workItem from="1696594531728" duration="1101000" />
+      <workItem from="1696594531728" duration="1414000" />
     </task>
     <servers />
   </component>
