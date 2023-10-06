@@ -2,7 +2,7 @@
 
 namespace Workshop.Api.Bll.Services.Interfaces;
 
-public interface IPriceCalculator
+public interface IPriceCalculatorService
 {
     double CalculatePrice(GoodModel[] goods);
     CalculatetionLogModel[] QueryLog(int take);
