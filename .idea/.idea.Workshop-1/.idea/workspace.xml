@@ -6,7 +6,7 @@
     <projectFile profileName="https">src/Workshop.Api/Workshop.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51d3afe3-bf23-4f44-9d5e-5883bf2d5539" name="Changes" comment="">
+    <list default="true" id="51d3afe3-bf23-4f44-9d5e-5883bf2d5539" name="Changes" comment="update gitignore">
       <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Controllers/V2/DeliveryPriceController.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Requests/V2/CalculateRequest.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Requests/V2/GetHistoryRequest.cs" afterDir="false" />
@@ -32,6 +32,30 @@
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
+    </option>
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "CLOSED"
+    }
+  ],
+  "lastFilter": {
+    "state": "CLOSED"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="AnzhelikaLika20" />
+        <option name="repository" value="Workshop-1" />
+      </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a64023a7-ff0c-418f-9a31-d7761c60f837" />
+        <option name="url" value="https://github.com/AnzhelikaLika20/Workshop-1.git" />
+      </UrlAndAccount>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
