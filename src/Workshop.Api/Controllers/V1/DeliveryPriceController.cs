@@ -8,13 +8,13 @@ namespace Workshop.Api.Controllers.V1;
 [Route("v1/[controller]")]
 public class DeliveryPriceController : ControllerBase
 {
-    [HttpPost]
+    [HttpPost("calculate")]
     public CalculateResponse Calculate(CalculateRequest request)
     {
         throw new NotImplementedException();
     }
     
-    [HttpPost]
+    [HttpPost("get-history")]
     public GetHistoryResponse[] GetHistory(GetHistoryRequest request)
     {
         throw new NotImplementedException();
