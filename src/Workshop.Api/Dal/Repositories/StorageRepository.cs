@@ -6,6 +6,8 @@ namespace Workshop.Api.Dal.Repositories;
 public class StorageRepository : IStorageRepository
 {
     private readonly List<StorageEntity> _storage = new ();
+
+    public void ClearHistory() => _storage.Clear();
     
     public void Save(StorageEntity entity)
     {

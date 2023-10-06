@@ -16,7 +16,7 @@ public class PriceCalculatorService : IPriceCalculatorService
     {
         _storageRepository = storageRepository;
     }
-    public double CalculatePrice(GoodModel[] goods)
+    public double CalculatePrice(GoodModel[] goods, double distance = 1)
     {
         if (!goods.Any())
         {
@@ -24,13 +24,18 @@ public class PriceCalculatorService : IPriceCalculatorService
         }
         var volumePrice = CalculatePriceByVolume(goods, out var volume);
         var weightPrice = CalculatePriceByWeight(goods, out var weight);
-        var resultPrice = Math.Max(volumePrice, weightPrice);
-        _storageRepository.Save(new StorageEntity(volume, volumePrice, DateTime.UtcNow, weight));
+
+        var maxVolume = goods.Max(x => x.Height * x.Width * x.Length);
+        var maxWeight = goods.Max(x => x.Weight);
+        
+        
+        var resultPrice = Math.Max(volumePrice, weightPrice) * distance;
+        _storageRepository.Save(new StorageEntity(volume, resultPrice, DateTime.UtcNow, weight, maxVolume, maxWeight, distance, goods.Length));
 
         return resultPrice;
     }
 
-    private static double CalculatePriceByVolume(GoodModel[] goods, out double volume)
+    private double CalculatePriceByVolume(GoodModel[] goods, out double volume)
     {
         volume = goods.Sum(x => x.Height * x.Length * x.Weight);
         var volumePrice = volume * VolumeRatio / 1000.0d;
@@ -39,8 +44,8 @@ public class PriceCalculatorService : IPriceCalculatorService
 
     private static double CalculatePriceByWeight(GoodModel[] goods, out double weight)
     {
-        weight = goods.Sum(x => x.Height * x.Length * x.Weight);
-        var weightPrice = weight * VolumeRatio / 1000.0d;
+        weight = goods.Sum(x => x.Weight);
+        var weightPrice = weight * WeightRatio / 1000.0d;
         return weightPrice;
     }
     public CalculatetionLogModel[] QueryLog(int take)
@@ -59,4 +64,11 @@ public class PriceCalculatorService : IPriceCalculatorService
                 x.Weight))
             .ToArray();
     }
+
+    public void ClearHistory()
+    {
+        _storageRepository.ClearHistory();
+    }
+
+
 }

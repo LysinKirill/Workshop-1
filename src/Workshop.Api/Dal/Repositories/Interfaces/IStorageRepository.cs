@@ -7,4 +7,8 @@ public interface IStorageRepository
     void Save(StorageEntity entity);
 
     StorageEntity[] Query();
+
+    void ClearHistory();
+    
+    
 }
