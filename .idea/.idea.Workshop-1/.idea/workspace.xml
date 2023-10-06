@@ -7,7 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51d3afe3-bf23-4f44-9d5e-5883bf2d5539" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Controllers/V2/DeliveryPriceController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Requests/V2/CalculateRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Requests/V2/GetHistoryRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Requests/V2/GoodProperties.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Responses/V2/CalculateResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Responses/V2/CargoResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Responses/V2/GetHistoryResponse.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Workshop-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Workshop-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Workshop.Api/Bll/Models/CalculatetionLogModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Workshop.Api/Bll/Models/CalculatetionLogModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Workshop.Api/Bll/Models/GoodModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Workshop.Api/Bll/Models/GoodModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Workshop.Api/Bll/Services/PriceCalculatorService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Workshop.Api/Bll/Services/PriceCalculatorService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Workshop.Api/Controllers/V1/DeliveryPriceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Workshop.Api/Controllers/V1/DeliveryPriceController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Workshop.Api/Dal/Entities/StorageEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Workshop.Api/Dal/Entities/StorageEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Workshop.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Workshop.Api/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ROUTE-100" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/Zver/Desktop/OZON/Workshop-1/src/Workshop.Api/Controllers/V1/DeliveryPriceController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Zver/Desktop/OZON/Workshop-1/src/Workshop.Api/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -99,7 +108,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="79f5f862-4cfb-482c-aeb2-432abd7c7e58" name="Changes" comment="" />
+      <changelist id="51d3afe3-bf23-4f44-9d5e-5883bf2d5539" name="Changes" comment="" />
       <created>1696588992866</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -107,6 +116,7 @@
       <workItem from="1696588995130" duration="4118000" />
       <workItem from="1696593838527" duration="672000" />
       <workItem from="1696594531728" duration="2288000" />
+      <workItem from="1696605972909" duration="1983000" />
     </task>
     <task id="LOCAL-00001" summary="implement bll and dal">
       <created>1696600470219</created>
