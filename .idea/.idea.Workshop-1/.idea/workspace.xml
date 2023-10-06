@@ -6,11 +6,13 @@
     <projectFile profileName="https">src/Workshop.Api/Workshop.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79f5f862-4cfb-482c-aeb2-432abd7c7e58" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Dal/Entities/StorageEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Dal/Repositories/Interfaces/IStorageRepository.cs" afterDir="false" />
+    <list default="true" id="51d3afe3-bf23-4f44-9d5e-5883bf2d5539" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Bll/Services/PriceCalculatorService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Dal/Repositories/StorageRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Workshop-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Workshop-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Workshop.Api/Bll/Services/Interfaces/IPriceCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Workshop.Api/Bll/Services/Interfaces/IPriceCalculatorService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Workshop.Api/Controllers/V1/DeliveryPriceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Workshop.Api/Controllers/V1/DeliveryPriceController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Workshop.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Workshop.Api/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
