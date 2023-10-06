@@ -7,12 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51d3afe3-bf23-4f44-9d5e-5883bf2d5539" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Bll/Services/PriceCalculatorService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Workshop.Api/Dal/Repositories/StorageRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Workshop-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Workshop-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Workshop.Api/Bll/Services/Interfaces/IPriceCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Workshop.Api/Bll/Services/Interfaces/IPriceCalculatorService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Workshop.Api/Controllers/V1/DeliveryPriceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Workshop.Api/Controllers/V1/DeliveryPriceController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Workshop.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Workshop.Api/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +21,14 @@
       </map>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Zver/Desktop/OZON/Workshop-1/src/Workshop.Api/Controllers/V1/DeliveryPriceController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Zver/Desktop/OZON/Workshop-1/src/Workshop.Api/Program.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2WO1ovmOX1ixWKdA30gBPhg75ib" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -108,11 +108,20 @@
       <workItem from="1696593838527" duration="672000" />
       <workItem from="1696594531728" duration="2288000" />
     </task>
+    <task id="LOCAL-00001" summary="implement bll and dal">
+      <created>1696600470219</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696600470219</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -139,5 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="implement bll and dal" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement bll and dal" />
   </component>
 </project>
